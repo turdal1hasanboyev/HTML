@@ -1,0 +1,48 @@
+<!--
+ input
+ label
+ select
+ textarea
+ button
+ option 
+ -->
+
+<!-- input turlari -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form input elementlari</title>
+    <link rel="stylesheet" href="./style1.css">
+</head>
+
+<body>
+    <form action="#formelements" method="post">
+        <label for="email">Enter a email: </label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"> <br>
+        <!-- email uchun -->
+        <label for="date">Date Birthday: </label>
+        <input type="date" id="date" name="date"> <br>
+        <!-- date uchun yani tug'ulgan kun sana kiritish uchun -->
+        <label for="student">Talaba </label>
+        <input type="checkbox" name="student" id="student"> <br>
+        <!-- check box yani uni belgilab ketish uchun -->
+        <label for="erkak">Erkak</label>
+        <input type="radio" name="gender" value="male"> <br>
+        <!-- radio berilganlardan birini tanlash uchun value o'zgaruvchisi boladi id berilmaydi asosiy ishni name qiladi u barcha tanlash kerak bolganlarda bir xil bolishi kerak -->
+        <label for="ayol">Ayol</label>
+        <input type="radio" name="gender" value="female"> <br>
+        <!-- radio odatda tanlash varianti kam bolsa ishlatiladi aks holda select ishlatgan yaxshi -->
+        <!-- radio type da id berilmaydi va tanlangan elementlarda name bir xil bolishi kerak -->
+        <label for="passport">Passport:</label>
+        <input type="file" name="file" id="passport"> <br>
+        <!-- file kiritish uchun qurilmadan rasm video va mp3 va h k  kirtish uchun-->
+        <button type="submit">Register</button>
+        <!-- button type=submit -->
+    </form>
+</body>
+
+</html>

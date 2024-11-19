@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layouts and Semantics</title>
+    <style>
+        .box {
+            /* class ga stiil berish */
+            font-size: 30px;
+            /* Yozuv o'lchami */
+            color: white;
+            /* rang */
+            text-align: center;
+            /* matnning joylashuvi */
+        }
+
+        header {
+            /* tag ga still berish */
+            background-color: blue;
+            /* orqa fon rangi */
+            height: 100px;
+            /* balandlik */
+            line-height: 100px;
+            /* yozuvning qatordagi balandligi */
+        }
+
+        nav {
+            background-color: red;
+            /* orqa fon rangi */
+            margin-top: 10px;
+            /* tepadan surish */
+            height: 100px;
+            /* balandlik */
+            line-height: 100px;
+            /* yozuvning qatordagi balandligi */
+        }
+
+        section {
+            background-color: yellow;
+            /* fon rangi (orqa) */
+            height: 500px;
+            /* balandlik */
+            margin-top: 10px;
+            /* tepadan pastga qarab surib */
+            line-height: 500px;
+            /* yozuvning balandlikka nisbatan turishi */
+            width: 70%;
+            /* kenglik */
+            float: left;
+            /* chap tomonga surilib o'ng tomondan joy ochish */
+        }
+
+        aside {
+            background-color: black;
+            height: 500px;
+            margin-top: 10px;
+            line-height: 500px;
+            width: 30%;
+            float: left;
+        }
+
+        footer {
+            background-color: aqua;
+            height: 100px;
+            margin-top: 10px;
+            line-height: 100px;
+            float: left;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="box">
+        <!-- tag ga class berish -->
+        Header
+    </header>
+    <nav class="box">
+        Nav
+    </nav>
+    <section class="box">
+        Section
+    </section>
+    <aside class="box">
+        Aside
+    </aside>
+    <footer class="box">
+        Footer
+    </footer>
+</body>
+
+</html>
+
+<!-- Samantics elements - Ma'noli elementlar -->
+<!-- Layouts loyiha manosi (ramka) -->
+
+<!-- header - hujjat bosh qismini belgilaydi -->
+<!-- nav - asosan 'menu' qismini belgilaydi -->
+<!-- section - hujjatning qismini belgilaydi -->
+<!-- aside - hujjatning asosiy qismidan tashqari qismini belgilaydi -->
+<!-- footer - hujjatning eng pastki qismini belgilaydi -->
+
+<!-- head - bosh qismi -->
+<!-- body - tana qismi -->
+
+<!-- Bu qismlarni div orqali qilsa ham boladi lekin bu usulda chiroyliroq va tushunarliroq boladi (dasturchi uchun) -->

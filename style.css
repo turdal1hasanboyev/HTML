@@ -1,0 +1,51 @@
+h1 {
+    background-color: red;
+    text-align: center;
+    opacity: 0.9;
+    color: blue;
+    font-weight: bolder;
+    font-size: 24px;
+}
+/* background-color orqa fon rangi */
+/* text-align - matn joylashuvi */
+/* opasity - harfning korinish korinmasligi */
+/* color harf rangi */
+/* font-size - yozuv katta kichikligi */
+/* font-weight - matnning qalinligini bildiradi */
+/* normal: Matnning oddiy qalinligi (standart holat).
+bold: Matnni qalin qilish.
+bolder: Matnni belgilangan qalinlikdan ko‘ra qalinroq qilish.
+lighter: Matnni belgilangan qalinlikdan ko‘ra yupqaroq qilish.
+100 dan 900 gacha bo‘lgan sonlar: Raqamlar qanchalik katta bo‘lsa, shunchalik qalin bo‘ladi (masalan, 400 normalga, 700 esa boldga teng). */
+h2 {
+    /* background-color: green;  */
+    text-align: start;
+    color: aqua;
+    font-weight: bold;
+    border: 3px solid black;
+}
+/* border: 3px solid black; bu CSS qatori elementga chegara (ramka) berishni bildiradi va u quyidagi qismlardan iborat:
+3px: Chegaraning qalinligi (3 piksel qalin bo‘ladi).
+solid: Chegaraning turi (bu holda qattiq, ya'ni to‘liq chiziq bo‘ladi). Boshqa turlar ham bor, masalan:
+dashed: Uzluksiz bo‘lmagan, chiziqcha tarzida.
+dotted: Nuqtali.
+double: Ikkita qattiq chiziq.
+black: Chegaraning rangi (bu holda qora).
+Demak, bu kod elementga 3 piksel qalinlikdagi, qattiq va qora chegara qo‘shadi. */
+/* border chegara berish  */
+/* background color orqa fon rangi */
+/* text-align matn joylashuvi */
+/* color rangi (matn) */
+/* font-weight - matnning qalinligini bildiradi */
+p {
+    background-color: yellow;
+    text-align: center;
+    font-weight: bolder;
+    color: black;
+    font-size: 20px;
+}
+/* font-size yozuv katta kichikligi pxda beriladi */
+/* taglarga still berish tartibi
+tag nomi {
+bu yerga kod yoziladi
+} */

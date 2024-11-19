@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadval</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* tablega still berildi */
+        /* width 100% ekranni egallash uchun yon tarafdan */
+        /* border-collapse: collapse; tablening chetlari yopiq bo'lishi yoki chetlari bir biriga qoshilib ketishi uchun*/
+        thead {
+            text-align: left;
+        }
+
+        /* thead ga still berildi yozuvlar chap tomonda bo'lishi uchun */
+        th {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        /* ikkita tagga birdaniga still berish mumkin  tag nomi, tag nomi {} qilib */
+        /* border: 1px solid black; bu CSS kodida elementning atrofida chizilgan chegara (border) haqida ma'lumot beradi. U uchta qismdan iborat:
+1px — chegara qalinligini bildiradi. Bu holatda, chegara 1 piksel qalin bo'ladi.
+solid — chegara uslubini (style) ifodalaydi. Bu uslub "solid", ya'ni to'liq chiziq bo'ladi. Boshqa uslublar ham mavjud, masalan, dashed (chiziqli), dotted (nuqtali) va boshqalar.
+black — chegara rangini bildiradi. Bu yerda chegara qora rangda bo'ladi.
+Demak, border: 1px solid black; element atrofida 1px qalinlikdagi, to'liq qora chiziq bilan chegara chizishni anglatadi. Bu chegaralar elementni vizual ravishda ajratib ko'rsatish yoki ta'kidlash uchun ishlatiladi. */
+        td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        /* padding 5px bu har tarafdan 5px dan surish degani */
+    </style>
+</head>
+
+<body>
+    <!-- vertikal ustun deyiladi -->
+    <!-- gorizontal qator deyiladi -->
+    <!-- ular kesishsa katak deyiladi -->
+    <!-- jadvalda bosh va tana qismi bo'ladi -->
+    <table>
+        <!-- table yaratish uchun tag bu  -->
+        <thead>
+            <!-- thead jadvalning bosh qismi -->
+            <tr>
+                <!-- tr = table row jadval qatori -->
+                <!-- row = qator -->
+                <!-- colum = ustun -->
+                <th>#</th>
+                <!-- th table head data  -->
+                <!-- bosh qismidagi t/r, ism, familiya va hokazo larni yaratish uchun -->
+                <th>Familiya</th>
+                <th>Ism</th>
+                <th>Yosh</th>
+                <th>Qiziqishi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Jadvalning body ya'ni tana qismi = tbody -->
+            <tr>
+                <!-- table row data jadval qatori -->
+                <td>1</td>
+                <!-- td = table data ya'ni jadvall ma'lumoti malumot kiritish degani -->
+                <td>Hasanboyev</td>
+                <td>Turdiali</td>
+                <td>16</td>
+                <td>Swimming</td>
+            </tr>
+            <tr>
+                <!-- table row yani yangi qator yaratish deganday gap -->
+                <td>2</td>
+                <td>Xusanov</td>
+                <td>Akmal</td>
+                <td>14</td>
+                <td>Coding</td>
+                <!-- td undagi malumotlar degani -->
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>

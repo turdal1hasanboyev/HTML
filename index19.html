@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, Textarea, Option</title>
+</head>
+
+<body>
+    <form action="#formelements" method="post">
+        <label for="email">Enter a email: </label>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"> <br>
+        <label for="date">Date Birthday: </label>
+        <input type="date" id="date" name="date"> <br>
+        <label for="student">Talaba </label>
+        <input type="checkbox" name="student" id="student"> <br>
+        <label for="erkak">Erkak</label>
+        <input type="radio" name="gender" value="male">
+        <label for="ayol">Ayol</label>
+        <input type="radio" name="gender" value="female"> <br>
+        <label for="passport">Passport:</label>
+        <input type="file" name="file" id="passport"> <br>
+        <label for="tajriba">Tajriba (yil)</label>
+        <select name="experience" id="tajriba">
+            <option value="0">Tajribam yo'q</option>
+            <option value="1">1 yil</option>
+            <option value="2">2 yil</option>
+        </select> <br>
+        <!-- select variant kop bolganda bittasini tanlash uchun ishlatiladi placeholder va input type ishlatilmaydi name id va for ishlatiladi -->
+        <!-- select ni ichida option atributi boladi unga qiymat va value beriladi -->
+        <label for="about">Siz haqingizda: </label> <br>
+        <textarea name="about" id="about" rows="10" cols="10" placeholder="O'zingiz haqingizda kiriting: "></textarea>
+        <br>
+        <!-- textarea bu yozish maydonini oldindan belgilash usulini beradi input type ishlatilmaydi name id for ishlatiladi id=for bolishi kerak placeholder example korsatib turishi uchun rows va cols uzunlik va kenglik belgilash uchun -->
+        <button type="submit">Register</button>
+    </form>
+</body>
+
+</html>
